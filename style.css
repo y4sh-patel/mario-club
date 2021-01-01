@@ -1,0 +1,134 @@
+body, ul, h1, li, h2{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+}
+
+header{
+        position: fixed;
+        z-index: 1;
+        background-color: #f63232;
+        width: 100%;
+        text-align: center;
+        top: 0;
+        left: 0;
+}
+header h1{
+        color: white;
+        font-size: 20px;
+        padding: 6px 12px;
+        display: inline-block;
+        border: 6px solid white ;
+        border-radius: 36px;
+        margin: 30px 0px;
+}
+.banner{
+        position: relative;
+        margin-bottom: -4px;
+}
+.banner img{
+        max-width: 100%;
+}
+.banner .welcome{
+        background-color: #feb614;
+        color: white;
+        padding: 30px;
+        position: absolute;
+        left: 0px;
+        top: 30%;
+}
+.banner h2{
+        font-size: 4vw;
+}
+.banner h2 span{
+        font-size: 1.3em;
+}
+nav {
+        position: sticky;
+        background-color: #f4f4f4;
+        padding: 20px;
+        top: 106px;
+}
+nav ul{
+        white-space: nowrap;
+        max-width: 800px;
+        margin: 0 auto;
+}
+nav li{
+        display: inline-block;
+        width: 25%;
+        font-size: 18px;
+        text-align: center;
+}
+nav li a{
+        text-decoration: none;
+        color: #4b4b4b;
+}
+nav li a.join{
+        color: #f63232;
+}
+main{
+        width: 100%;
+        max-width: 800px;
+        margin: 80px auto;
+        padding: 0px 40px;
+        box-sizing: border-box;
+}
+article h2{
+        color: #f63232;
+        font-size: 48px;
+}
+article p{
+        text-align: justify;
+        line-height: 2em;
+        color: #4b4b4b;
+}
+.images{
+        text-align: center;
+        margin : 80px 0;
+        white-space: nowrap;
+}
+.images li{
+        display: inline-block;
+        width: 40%;
+        margin: 20px 5%;
+}
+.images li img{
+        max-width: 100%;
+}
+.images li:hover{
+        position: relative;
+        top: -4px;
+        
+}
+section.join{
+         background-color: #f4f4f4;
+         text-align: center;
+         padding: 60px 120px;
+         color: #4b4b4b;
+}
+section.join h2{
+        font-size: 30px;
+}
+form input{
+        margin:20px 0px;
+        padding: 10px 20px;
+        font-size: 15px;
+        border-radius: 28px;
+        border:3px solid white;
+}
+footer{
+        background-color: #f63232;
+        text-align: center;
+        padding: 5px 0px;
+        color: white;
+}
+
+form input:focus{
+        border: 3px dashed #4b4b4b;
+        outline:none;
+}
+
+form input:valid{
+        border: 3px solid #71d300;
+}
